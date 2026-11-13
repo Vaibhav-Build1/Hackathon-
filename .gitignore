@@ -1,0 +1,23 @@
+
+# graphify-axet
+.graphify/
+
+# secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# python env/cache
+.venv/
+__pycache__/
+*.pyc
+
+# local runtime artifacts
+outputs/
+storage/
+*.db
+*.sqlite3
+*.log
+import_check.log
+import_test_output.txt
